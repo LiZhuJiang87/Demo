@@ -8,7 +8,7 @@ public class Main {
         int target = 9;
 
         int[] actual = Utility.findTwoNumbers(sortedNumber, target);
-        int[] expected = new int[]{0, 1};
+        int[] expected = new int[]{1, 2};
 
         System.out.printf("Is the actual equal to the expected? %s%n",
                 Arrays.equals(actual, expected) ? "YES" : "NO");

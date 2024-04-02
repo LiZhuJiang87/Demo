@@ -15,7 +15,7 @@ public class Utility {
             } else if (sorted[left] + sorted[right] < target) {
                 left++;
             } else {
-                return new int[]{left, right};
+                return new int[]{left+1, right+1};
             }
         }
         return new int[]{};
